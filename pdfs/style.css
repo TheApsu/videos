@@ -1,0 +1,13 @@
+#the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+}
+
+
+.centro {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
