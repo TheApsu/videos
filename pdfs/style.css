@@ -1,8 +1,13 @@
-#the-canvas {
-    border: 1px solid black;
-    direction: ltr;
+@font-face {
+    font-family: 'StarBlast';
+    src: url('StarBlastRegular.ttf');
 }
 
+#the-canvas {
+    border: 0.1rem solid #260801; 
+    border-radius: 1.5rem;
+    direction: ltr;
+}
 
 .centro {
     width: 100%;
@@ -10,4 +15,42 @@
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+    align-items: center;
+
+    color: #8bbccf;
+    font-family: StarBlast;
+    font-size: 1.5rem;
+    -webkit-text-stroke: 0.08rem #260801;
+}
+
+button{
+    border-radius: 100px;
+    background-color: #8bbccf;
+
+
+    width: 2.5rem;
+    height: 2.5rem;
+    border: solid 0.1rem #260801;
+}
+
+button svg{
+    height: 100%;
+    width: 100%;
+}
+
+
+polyline{
+    fill:none;
+    stroke: #260801;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-width:48px
+}
+
+line{
+    fill:none;
+    stroke: #260801;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-width:48px
 }

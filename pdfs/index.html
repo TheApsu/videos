@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+        <div class="centro">
+            <button id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>ionicons-v5-a</title><polyline points="244 400 100 256 244 112"/><line x1="120" y1="256" x2="412" y2="256"/></svg>
+            </button>
+            &nbsp; &nbsp;
+            <span>Pagina: <span id="page_num"></span> / <span id="page_count"></span></span>
+            &nbsp; &nbsp;
+            <button id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>ionicons-v5-a</title><polyline points="268 112 412 256 268 400"/><line x1="392" y1="256" x2="100" y2="256"/></svg>
+            </button>
+        </div>
+        <div class="centro">
+            <canvas id="the-canvas"></canvas>
+        </div>
+    </div>
+
+    
+    <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
